@@ -15,9 +15,9 @@ flake8-eradicate: 1.0.0, flake8-string-format: 0.3.0, flake8_commas: 2.0.0,
 flake8_isort: 4.0.0, flake8_quotes: 3.2.0, mccabe: 0.6.1, naming: 0.11.1,  
 pycodestyle: 2.6.0, pyflakes: 2.2.0, radon: 4.3.2, rst-docstrings: 0.0.14,  
 wemake_python_styleguide: 0.15.1)  
-
-
-
+  
+  
+  
 В main.py проверяемый код.  
 
 cmd:  
@@ -25,7 +25,7 @@ flake8 main.py > errors.txt
 
 cmd:  
 python parse_flake8.py > parsed_errors.txt  
-> errors.txt  
+(стандартный ввод): errors.txt  
 
 В errors.txt - неструктурированный вывод flake8.  
 В parsed_errors.txt - ошибки сгруппированы по категориям.  
