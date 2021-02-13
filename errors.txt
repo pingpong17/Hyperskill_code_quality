@@ -1,0 +1,281 @@
+main.py:0:1: WPS202 Found too many module members: 18 > 7
+main.py:0:1: WPS226 Found string constant over-use: 0 > 3
+main.py:0:1: WPS226 Found string constant over-use: 1 > 3
+main.py:0:1: WPS226 Found string constant over-use: _ > 3
+main.py:1:1: D100 Missing docstring in public module
+main.py:8:2: E800 Found commented out code
+main.py:9:1: E302 expected 2 blank lines, found 1
+main.py:9:1: D101 Missing docstring in public class
+main.py:9:1: H601 class has low (44.44%) cohesion
+main.py:9:1: WPS306 Found class without a base class: Variable
+main.py:9:1: WPS110 Found wrong variable name: Variable
+main.py:10:1: D107 Missing docstring in __init__
+main.py:10:36: WPS110 Found wrong variable name: _value
+main.py:13:9: WPS110 Found wrong variable name: value
+main.py:15:1: D105 Missing docstring in magic method
+main.py:18:1: D105 Missing docstring in magic method
+main.py:22:1: D103 Missing docstring in public function
+main.py:22:25: WPS110 Found wrong variable name: _value
+main.py:23:5: WPS122 Found all unused variables definition: _id
+main.py:24:24: WPS121 Found usage of a variable marked as unused: _id
+main.py:26:12: WPS121 Found usage of a variable marked as unused: _id
+main.py:29:21: Q000 Remove bad quotes
+main.py:30:20: Q000 Remove bad quotes
+main.py:34:1: E302 expected 2 blank lines, found 1
+main.py:34:1: D101 Missing docstring in public class
+main.py:34:1: H601 class has low (35.00%) cohesion
+main.py:34:1: WPS306 Found class without a base class: Term
+main.py:35:1: D107 Missing docstring in __init__
+main.py:42:1: D105 Missing docstring in magic method
+main.py:43:9: E741 ambiguous variable name 'l'
+main.py:43:9: WPS111 Found too short name: l < 2
+main.py:44:9: WPS111 Found too short name: s < 2
+main.py:45:13: WPS111 Found too short name: x < 2
+main.py:47:17: WPS111 Found too short name: s < 2
+main.py:47:22: WPS336 Found explicit string concatanation
+main.py:48:13: WPS111 Found too short name: s < 2
+main.py:51:1: D105 Missing docstring in magic method
+main.py:54:1: D105 Missing docstring in magic method
+main.py:57:1: D105 Missing docstring in magic method
+main.py:61:1: D103 Missing docstring in public function
+main.py:61:1: WPS231 Found function with too much cognitive complexity: 27 > 12
+main.py:64:9: WPS122 Found all unused variables definition: _var_ids
+main.py:64:20: WPS121 Found usage of a variable marked as unused: _var_ids
+main.py:65:9: WPS121 Found usage of a variable marked as unused: _var_ids
+main.py:66:9: WPS122 Found all unused variables definition: _id
+main.py:66:20: WPS121 Found usage of a variable marked as unused: _var_ids
+main.py:67:25: WPS121 Found usage of a variable marked as unused: _id
+main.py:70:27: WPS121 Found usage of a variable marked as unused: _id
+main.py:71:17: WPS420 Found wrong keyword: pass
+main.py:73:17: WPS513 Found implicit `elif` condition
+main.py:73:36: WPS121 Found usage of a variable marked as unused: _id
+main.py:74:37: WPS121 Found usage of a variable marked as unused: _id
+main.py:81:10: WPS504 Found negated condition
+main.py:88:9: WPS121 Found usage of a variable marked as unused: _id
+main.py:88:9: WPS440 Found block variables overlap: _id
+main.py:88:9: WPS122 Found all unused variables definition: _id
+main.py:89:25: WPS121 Found usage of a variable marked as unused: _id
+main.py:89:25: WPS441 Found control variable used after block: _id
+main.py:91:33: WPS121 Found usage of a variable marked as unused: _id
+main.py:91:33: WPS441 Found control variable used after block: _id
+main.py:100:1: D103 Missing docstring in public function
+main.py:100:16: WPS111 Found too short name: a < 2
+main.py:100:19: WPS111 Found too short name: b < 2
+main.py:104:1: D101 Missing docstring in public class
+main.py:104:1: WPS306 Found class without a base class: Polynomial
+main.py:105:1: D107 Missing docstring in __init__
+main.py:105:5: WPS231 Found function with too much cognitive complexity: 17 > 12
+main.py:105:31: B006 Do not use mutable data structures for argument defaults.  They are created during function definition time. All calls to the function reuse this one instance of that data structure, persisting changes between them.
+main.py:105:31: WPS404 Found complex default value
+main.py:107:13: WPS122 Found all unused variables definition: _terms
+main.py:107:22: WPS121 Found usage of a variable marked as unused: _terms
+main.py:108:13: WPS121 Found usage of a variable marked as unused: _terms
+main.py:110:17: WPS111 Found too short name: t < 2
+main.py:110:22: WPS121 Found usage of a variable marked as unused: _terms
+main.py:113:22: WPS220 Found too deep nesting: 21 > 20
+main.py:118:21: WPS121 Found usage of a variable marked as unused: _terms
+main.py:121:1: D105 Missing docstring in magic method
+main.py:122:9: WPS111 Found too short name: s < 2
+main.py:123:13: WPS111 Found too short name: t < 2
+main.py:125:17: WPS111 Found too short name: s < 2
+main.py:125:22: WPS336 Found explicit string concatanation
+main.py:126:13: WPS111 Found too short name: s < 2
+main.py:131:1: D105 Missing docstring in magic method
+main.py:135:36: WPS425 Found boolean non-keyword argument: True
+main.py:136:34: WPS425 Found boolean non-keyword argument: True
+main.py:139:1: D103 Missing docstring in public function
+main.py:139:13: WPS111 Found too short name: a < 2
+main.py:139:16: WPS111 Found too short name: b < 2
+main.py:140:42: WPS425 Found boolean non-keyword argument: True
+main.py:143:1: D103 Missing docstring in public function
+main.py:143:14: WPS111 Found too short name: a < 2
+main.py:143:17: WPS111 Found too short name: b < 2
+main.py:148:27: WPS425 Found boolean non-keyword argument: True
+main.py:152:1: D103 Missing docstring in public function
+main.py:152:1: WPS231 Found function with too much cognitive complexity: 41 > 12
+main.py:152:15: WPS111 Found too short name: t < 2
+main.py:153:2: E800 Found commented out code
+main.py:153:5: E265 block comment should start with '# '
+main.py:156:5: WPS110 Found wrong variable name: result
+main.py:157:5: WPS122 Found all unused variables definition: _id
+main.py:158:21: WPS121 Found usage of a variable marked as unused: _id
+main.py:159:13: WPS420 Found wrong keyword: pass
+main.py:160:23: WPS121 Found usage of a variable marked as unused: _id
+main.py:161:13: WPS110 Found wrong variable name: result
+main.py:163:14: WPS121 Found usage of a variable marked as unused: _id
+main.py:164:16: WPS529 Found implicit `.get()` dict usage
+main.py:164:28: WPS121 Found usage of a variable marked as unused: _id
+main.py:165:17: WPS420 Found wrong keyword: pass
+main.py:166:18: WPS529 Found implicit `.get()` dict usage
+main.py:166:30: WPS121 Found usage of a variable marked as unused: _id
+main.py:167:17: WPS110 Found wrong variable name: result
+main.py:169:23: WPS121 Found usage of a variable marked as unused: _id
+main.py:170:13: WPS110 Found wrong variable name: result
+main.py:170:61: WPS121 Found usage of a variable marked as unused: _id
+main.py:172:13: WPS110 Found wrong variable name: result
+main.py:172:57: WPS121 Found usage of a variable marked as unused: _id
+main.py:179:1: D103 Missing docstring in public function
+main.py:179:14: WPS111 Found too short name: a < 2
+main.py:181:9: WPS111 Found too short name: t < 2
+main.py:183:13: WPS110 Found wrong variable name: item
+main.py:185:34: WPS425 Found boolean non-keyword argument: True
+main.py:188:1: D103 Missing docstring in public function
+main.py:188:20: WPS111 Found too short name: s < 2
+main.py:188:23: WPS111 Found too short name: j < 2
+main.py:192:1: D103 Missing docstring in public function
+main.py:192:17: WPS111 Found too short name: s < 2
+main.py:192:25: WPS111 Found too short name: b < 2
+main.py:193:2: E800 Found commented out code
+main.py:193:5: E265 block comment should start with '# '
+main.py:194:5: WPS111 Found too short name: s < 2
+main.py:203:1: D103 Missing docstring in public function
+main.py:203:13: WPS111 Found too short name: a < 2
+main.py:203:16: WPS111 Found too short name: b < 2
+main.py:204:1: S101 Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+main.py:205:5: WPS111 Found too short name: c < 2
+main.py:206:9: WPS111 Found too short name: i < 2
+main.py:206:14: WPS518 Found implicit `enumerate()` call
+main.py:211:1: D103 Missing docstring in public function
+main.py:211:13: WPS111 Found too short name: a < 2
+main.py:211:16: WPS111 Found too short name: b < 2
+main.py:212:1: S101 Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+main.py:213:5: WPS111 Found too short name: c < 2
+main.py:214:9: WPS111 Found too short name: i < 2
+main.py:214:14: WPS518 Found implicit `enumerate()` call
+main.py:219:1: D103 Missing docstring in public function
+main.py:219:13: WPS111 Found too short name: a < 2
+main.py:220:5: WPS111 Found too short name: c < 2
+main.py:221:9: WPS111 Found too short name: i < 2
+main.py:221:14: WPS518 Found implicit `enumerate()` call
+main.py:226:1: D103 Missing docstring in public function
+main.py:226:14: WPS111 Found too short name: s < 2
+main.py:228:9: WPS111 Found too short name: c < 2
+main.py:229:9: WPS221 Found line with high Jones Complexity: 26 > 14
+main.py:229:9: WPS122 Found all unused variables definition: _id
+main.py:229:37: WPS333 Found implicit complex compare
+main.py:229:80: E501 line too long (86 > 79 characters)
+main.py:230:9: WPS519 Found implicit `sum()` call
+main.py:230:13: WPS111 Found too short name: i < 2
+main.py:231:37: WPS121 Found usage of a variable marked as unused: _id
+main.py:235:1: D103 Missing docstring in public function
+main.py:235:12: WPS111 Found too short name: s < 2
+main.py:236:1: S101 Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+main.py:238:9: WPS111 Found too short name: i < 2
+main.py:239:9: WPS110 Found wrong variable name: val
+main.py:240:9: WPS519 Found implicit `sum()` call
+main.py:240:13: WPS111 Found too short name: b < 2
+main.py:241:13: WPS221 Found line with high Jones Complexity: 18 > 14
+main.py:241:13: WPS110 Found wrong variable name: val
+main.py:241:38: WPS509 Found incorrectly nested ternary
+main.py:254:1: D103 Missing docstring in public function
+main.py:254:18: WPS111 Found too short name: a < 2
+main.py:254:21: WPS111 Found too short name: b < 2
+main.py:258:1: WPS111 Found too short name: z < 2
+main.py:259:6: WPS318 Found extra indentation
+main.py:262:70: WPS319 Found bracket in wrong position
+main.py:265:1: WPS111 Found too short name: n < 2
+main.py:266:1: WPS111 Found too short name: m < 2
+main.py:267:1: WPS111 Found too short name: T < 2
+main.py:268:1: WPS111 Found too short name: j < 2
+main.py:271:1: E265 block comment should start with '# '
+main.py:271:2: E800 Found commented out code
+main.py:272:1: E265 block comment should start with '# '
+main.py:272:2: E800 Found commented out code
+main.py:273:1: E265 block comment should start with '# '
+main.py:273:2: E800 Found commented out code
+main.py:274:2: E800 Found commented out code
+main.py:275:80: E501 line too long (91 > 79 characters)
+main.py:276:1: E265 block comment should start with '# '
+main.py:279:2: E800 Found commented out code
+main.py:280:2: E800 Found commented out code
+main.py:282:1: E265 block comment should start with '# '
+main.py:282:2: E800 Found commented out code
+main.py:284:17: WPS111 Found too short name: i < 2
+main.py:285:1: WPS111 Found too short name: k < 2
+main.py:285:13: WPS111 Found too short name: i < 2
+main.py:286:5: WPS111 Found too short name: i < 2
+main.py:288:9: WPS110 Found wrong variable name: value
+main.py:289:9: WPS221 Found line with high Jones Complexity: 16 > 14
+main.py:289:38: WPS305 Found `f` string
+main.py:290:9: WPS221 Found line with high Jones Complexity: 17 > 14
+main.py:290:9: WPS204 Found overused expression: k[i]; used 14 > 7
+main.py:293:1: WPS440 Found block variables overlap: i
+main.py:293:5: WPS111 Found too short name: i < 2
+main.py:301:5: WPS221 Found line with high Jones Complexity: 20 > 14
+main.py:301:49: WPS432 Found magic number: 62
+main.py:305:5: WPS440 Found block variables overlap: j1
+main.py:306:9: WPS110 Found wrong variable name: value
+main.py:307:9: WPS221 Found line with high Jones Complexity: 16 > 14
+main.py:307:38: WPS305 Found `f` string
+main.py:308:2: E800 Found commented out code
+main.py:309:9: WPS221 Found line with high Jones Complexity: 17 > 14
+main.py:312:2: E800 Found commented out code
+main.py:316:17: WPS111 Found too short name: i < 2
+main.py:317:1: WPS111 Found too short name: x < 2
+main.py:317:13: WPS111 Found too short name: i < 2
+main.py:318:1: WPS440 Found block variables overlap: j1
+main.py:319:5: WPS110 Found wrong variable name: value
+main.py:320:2: E800 Found commented out code
+main.py:321:5: WPS221 Found line with high Jones Complexity: 16 > 14
+main.py:321:34: WPS237 Found a too complex `f` string
+main.py:321:34: WPS305 Found `f` string
+main.py:322:2: E800 Found commented out code
+main.py:323:5: WPS221 Found line with high Jones Complexity: 17 > 14
+main.py:324:1: E265 block comment should start with '# '
+main.py:324:2: E800 Found commented out code
+main.py:325:1: WPS440 Found block variables overlap: j1
+main.py:326:5: WPS110 Found wrong variable name: value
+main.py:327:5: WPS221 Found line with high Jones Complexity: 16 > 14
+main.py:327:34: WPS237 Found a too complex `f` string
+main.py:327:34: WPS305 Found `f` string
+main.py:328:2: E800 Found commented out code
+main.py:329:5: WPS221 Found line with high Jones Complexity: 17 > 14
+main.py:330:1: E265 block comment should start with '# '
+main.py:330:2: E800 Found commented out code
+main.py:333:1: WPS440 Found block variables overlap: i
+main.py:333:5: WPS111 Found too short name: i < 2
+main.py:334:5: WPS221 Found line with high Jones Complexity: 35 > 14
+main.py:334:5: WPS110 Found wrong variable name: vals
+main.py:334:80: E501 line too long (119 > 79 characters)
+main.py:335:7: WPS204 Found overused expression: i + 2; used 9 > 7
+main.py:336:9: WPS111 Found too short name: p < 2
+main.py:336:14: WPS518 Found implicit `enumerate()` call
+main.py:337:9: WPS221 Found line with high Jones Complexity: 16 > 14
+main.py:339:5: WPS440 Found block variables overlap: j1
+main.py:340:9: WPS110 Found wrong variable name: value
+main.py:341:9: WPS221 Found line with high Jones Complexity: 20 > 14
+main.py:341:42: WPS237 Found a too complex `f` string
+main.py:341:42: WPS305 Found `f` string
+main.py:342:2: E800 Found commented out code
+main.py:343:9: WPS221 Found line with high Jones Complexity: 21 > 14
+main.py:347:2: E800 Found commented out code
+main.py:351:2: E800 Found commented out code
+main.py:352:2: E800 Found commented out code
+main.py:358:1: WPS440 Found block variables overlap: i
+main.py:358:5: WPS111 Found too short name: i < 2
+main.py:359:5: WPS440 Found block variables overlap: j1
+main.py:360:9: WPS110 Found wrong variable name: value
+main.py:364:2: N816 variable 'resL' in global scope should not be mixedCase
+main.py:365:2: N816 variable 'resR' in global scope should not be mixedCase
+main.py:367:1: WPS519 Found implicit `sum()` call
+main.py:367:1: WPS440 Found block variables overlap: i
+main.py:367:5: WPS111 Found too short name: i < 2
+main.py:367:10: WPS518 Found implicit `enumerate()` call
+main.py:369:1: WPS519 Found implicit `sum()` call
+main.py:369:1: WPS440 Found block variables overlap: i
+main.py:369:5: WPS111 Found too short name: i < 2
+main.py:369:10: WPS518 Found implicit `enumerate()` call
+main.py:372:1: WPS421 Found wrong function call: print
+main.py:373:1: WPS421 Found wrong function call: print
+main.py:379:1: WPS440 Found block variables overlap: j1
+main.py:380:2: E800 Found commented out code
+main.py:381:5: WPS110 Found wrong variable name: value
+main.py:384:2: E800 Found commented out code
+main.py:385:5: WPS110 Found wrong variable name: value
+main.py:389:1: WPS421 Found wrong function call: print
+main.py:390:1: WPS421 Found wrong function call: print
+main.py:392:5: WPS110 Found wrong variable name: item
+main.py:393:2: E800 Found commented out code
+main.py:393:80: E501 line too long (84 > 79 characters)
+main.py:394:5: WPS421 Found wrong function call: print
+main.py:394:50: WPS336 Found explicit string concatanation

@@ -1,0 +1,334 @@
+Error group WPS
+    Error subgroup WPS202
+        main.py:0:1: Found too many module members: 18 > 7
+    Error subgroup WPS226
+        main.py:0:1: Found string constant over-use: 0 > 3
+        main.py:0:1: Found string constant over-use: 1 > 3
+        main.py:0:1: Found string constant over-use: _ > 3
+    Error subgroup WPS306
+        main.py:9:1: Found class without a base class: Variable
+        main.py:34:1: Found class without a base class: Term
+        main.py:104:1: Found class without a base class: Polynomial
+    Error subgroup WPS110
+        main.py:9:1: Found wrong variable name: Variable
+        main.py:10:36: Found wrong variable name: _value
+        main.py:13:9: Found wrong variable name: value
+        main.py:22:25: Found wrong variable name: _value
+        main.py:156:5: Found wrong variable name: result
+        main.py:161:13: Found wrong variable name: result
+        main.py:167:17: Found wrong variable name: result
+        main.py:170:13: Found wrong variable name: result
+        main.py:172:13: Found wrong variable name: result
+        main.py:183:13: Found wrong variable name: item
+        main.py:239:9: Found wrong variable name: val
+        main.py:241:13: Found wrong variable name: val
+        main.py:288:9: Found wrong variable name: value
+        main.py:306:9: Found wrong variable name: value
+        main.py:319:5: Found wrong variable name: value
+        main.py:326:5: Found wrong variable name: value
+        main.py:334:5: Found wrong variable name: vals
+        main.py:340:9: Found wrong variable name: value
+        main.py:360:9: Found wrong variable name: value
+        main.py:381:5: Found wrong variable name: value
+        main.py:385:5: Found wrong variable name: value
+        main.py:392:5: Found wrong variable name: item
+    Error subgroup WPS122
+        main.py:23:5: Found all unused variables definition: _id
+        main.py:64:9: Found all unused variables definition: _var_ids
+        main.py:66:9: Found all unused variables definition: _id
+        main.py:88:9: Found all unused variables definition: _id
+        main.py:107:13: Found all unused variables definition: _terms
+        main.py:157:5: Found all unused variables definition: _id
+        main.py:229:9: Found all unused variables definition: _id
+    Error subgroup WPS121
+        main.py:24:24: Found usage of a variable marked as unused: _id
+        main.py:26:12: Found usage of a variable marked as unused: _id
+        main.py:64:20: Found usage of a variable marked as unused: _var_ids
+        main.py:65:9: Found usage of a variable marked as unused: _var_ids
+        main.py:66:20: Found usage of a variable marked as unused: _var_ids
+        main.py:67:25: Found usage of a variable marked as unused: _id
+        main.py:70:27: Found usage of a variable marked as unused: _id
+        main.py:73:36: Found usage of a variable marked as unused: _id
+        main.py:74:37: Found usage of a variable marked as unused: _id
+        main.py:88:9: Found usage of a variable marked as unused: _id
+        main.py:89:25: Found usage of a variable marked as unused: _id
+        main.py:91:33: Found usage of a variable marked as unused: _id
+        main.py:107:22: Found usage of a variable marked as unused: _terms
+        main.py:108:13: Found usage of a variable marked as unused: _terms
+        main.py:110:22: Found usage of a variable marked as unused: _terms
+        main.py:118:21: Found usage of a variable marked as unused: _terms
+        main.py:158:21: Found usage of a variable marked as unused: _id
+        main.py:160:23: Found usage of a variable marked as unused: _id
+        main.py:163:14: Found usage of a variable marked as unused: _id
+        main.py:164:28: Found usage of a variable marked as unused: _id
+        main.py:166:30: Found usage of a variable marked as unused: _id
+        main.py:169:23: Found usage of a variable marked as unused: _id
+        main.py:170:61: Found usage of a variable marked as unused: _id
+        main.py:172:57: Found usage of a variable marked as unused: _id
+        main.py:231:37: Found usage of a variable marked as unused: _id
+    Error subgroup WPS111
+        main.py:43:9: Found too short name: l < 2
+        main.py:44:9: Found too short name: s < 2
+        main.py:45:13: Found too short name: x < 2
+        main.py:47:17: Found too short name: s < 2
+        main.py:48:13: Found too short name: s < 2
+        main.py:100:16: Found too short name: a < 2
+        main.py:100:19: Found too short name: b < 2
+        main.py:110:17: Found too short name: t < 2
+        main.py:122:9: Found too short name: s < 2
+        main.py:123:13: Found too short name: t < 2
+        main.py:125:17: Found too short name: s < 2
+        main.py:126:13: Found too short name: s < 2
+        main.py:139:13: Found too short name: a < 2
+        main.py:139:16: Found too short name: b < 2
+        main.py:143:14: Found too short name: a < 2
+        main.py:143:17: Found too short name: b < 2
+        main.py:152:15: Found too short name: t < 2
+        main.py:179:14: Found too short name: a < 2
+        main.py:181:9: Found too short name: t < 2
+        main.py:188:20: Found too short name: s < 2
+        main.py:188:23: Found too short name: j < 2
+        main.py:192:17: Found too short name: s < 2
+        main.py:192:25: Found too short name: b < 2
+        main.py:194:5: Found too short name: s < 2
+        main.py:203:13: Found too short name: a < 2
+        main.py:203:16: Found too short name: b < 2
+        main.py:205:5: Found too short name: c < 2
+        main.py:206:9: Found too short name: i < 2
+        main.py:211:13: Found too short name: a < 2
+        main.py:211:16: Found too short name: b < 2
+        main.py:213:5: Found too short name: c < 2
+        main.py:214:9: Found too short name: i < 2
+        main.py:219:13: Found too short name: a < 2
+        main.py:220:5: Found too short name: c < 2
+        main.py:221:9: Found too short name: i < 2
+        main.py:226:14: Found too short name: s < 2
+        main.py:228:9: Found too short name: c < 2
+        main.py:230:13: Found too short name: i < 2
+        main.py:235:12: Found too short name: s < 2
+        main.py:238:9: Found too short name: i < 2
+        main.py:240:13: Found too short name: b < 2
+        main.py:254:18: Found too short name: a < 2
+        main.py:254:21: Found too short name: b < 2
+        main.py:258:1: Found too short name: z < 2
+        main.py:265:1: Found too short name: n < 2
+        main.py:266:1: Found too short name: m < 2
+        main.py:267:1: Found too short name: T < 2
+        main.py:268:1: Found too short name: j < 2
+        main.py:284:17: Found too short name: i < 2
+        main.py:285:1: Found too short name: k < 2
+        main.py:285:13: Found too short name: i < 2
+        main.py:286:5: Found too short name: i < 2
+        main.py:293:5: Found too short name: i < 2
+        main.py:316:17: Found too short name: i < 2
+        main.py:317:1: Found too short name: x < 2
+        main.py:317:13: Found too short name: i < 2
+        main.py:333:5: Found too short name: i < 2
+        main.py:336:9: Found too short name: p < 2
+        main.py:358:5: Found too short name: i < 2
+        main.py:367:5: Found too short name: i < 2
+        main.py:369:5: Found too short name: i < 2
+    Error subgroup WPS336
+        main.py:47:22: Found explicit string concatanation
+        main.py:125:22: Found explicit string concatanation
+        main.py:394:50: Found explicit string concatanation
+    Error subgroup WPS231
+        main.py:61:1: Found function with too much cognitive complexity: 27 > 12
+        main.py:105:5: Found function with too much cognitive complexity: 17 > 12
+        main.py:152:1: Found function with too much cognitive complexity: 41 > 12
+    Error subgroup WPS420
+        main.py:71:17: Found wrong keyword: pass
+        main.py:159:13: Found wrong keyword: pass
+        main.py:165:17: Found wrong keyword: pass
+    Error subgroup WPS513
+        main.py:73:17: Found implicit `elif` condition
+    Error subgroup WPS504
+        main.py:81:10: Found negated condition
+    Error subgroup WPS440
+        main.py:88:9: Found block variables overlap: _id
+        main.py:293:1: Found block variables overlap: i
+        main.py:305:5: Found block variables overlap: j1
+        main.py:318:1: Found block variables overlap: j1
+        main.py:325:1: Found block variables overlap: j1
+        main.py:333:1: Found block variables overlap: i
+        main.py:339:5: Found block variables overlap: j1
+        main.py:358:1: Found block variables overlap: i
+        main.py:359:5: Found block variables overlap: j1
+        main.py:367:1: Found block variables overlap: i
+        main.py:369:1: Found block variables overlap: i
+        main.py:379:1: Found block variables overlap: j1
+    Error subgroup WPS441
+        main.py:89:25: Found control variable used after block: _id
+        main.py:91:33: Found control variable used after block: _id
+    Error subgroup WPS404
+        main.py:105:31: Found complex default value
+    Error subgroup WPS220
+        main.py:113:22: Found too deep nesting: 21 > 20
+    Error subgroup WPS425
+        main.py:135:36: Found boolean non-keyword argument: True
+        main.py:136:34: Found boolean non-keyword argument: True
+        main.py:140:42: Found boolean non-keyword argument: True
+        main.py:148:27: Found boolean non-keyword argument: True
+        main.py:185:34: Found boolean non-keyword argument: True
+    Error subgroup WPS529
+        main.py:164:16: Found implicit `.get()` dict usage
+        main.py:166:18: Found implicit `.get()` dict usage
+    Error subgroup WPS518
+        main.py:206:14: Found implicit `enumerate()` call
+        main.py:214:14: Found implicit `enumerate()` call
+        main.py:221:14: Found implicit `enumerate()` call
+        main.py:336:14: Found implicit `enumerate()` call
+        main.py:367:10: Found implicit `enumerate()` call
+        main.py:369:10: Found implicit `enumerate()` call
+    Error subgroup WPS221
+        main.py:229:9: Found line with high Jones Complexity: 26 > 14
+        main.py:241:13: Found line with high Jones Complexity: 18 > 14
+        main.py:289:9: Found line with high Jones Complexity: 16 > 14
+        main.py:290:9: Found line with high Jones Complexity: 17 > 14
+        main.py:301:5: Found line with high Jones Complexity: 20 > 14
+        main.py:307:9: Found line with high Jones Complexity: 16 > 14
+        main.py:309:9: Found line with high Jones Complexity: 17 > 14
+        main.py:321:5: Found line with high Jones Complexity: 16 > 14
+        main.py:323:5: Found line with high Jones Complexity: 17 > 14
+        main.py:327:5: Found line with high Jones Complexity: 16 > 14
+        main.py:329:5: Found line with high Jones Complexity: 17 > 14
+        main.py:334:5: Found line with high Jones Complexity: 35 > 14
+        main.py:337:9: Found line with high Jones Complexity: 16 > 14
+        main.py:341:9: Found line with high Jones Complexity: 20 > 14
+        main.py:343:9: Found line with high Jones Complexity: 21 > 14
+    Error subgroup WPS333
+        main.py:229:37: Found implicit complex compare
+    Error subgroup WPS519
+        main.py:230:9: Found implicit `sum()` call
+        main.py:240:9: Found implicit `sum()` call
+        main.py:367:1: Found implicit `sum()` call
+        main.py:369:1: Found implicit `sum()` call
+    Error subgroup WPS509
+        main.py:241:38: Found incorrectly nested ternary
+    Error subgroup WPS318
+        main.py:259:6: Found extra indentation
+    Error subgroup WPS319
+        main.py:262:70: Found bracket in wrong position
+    Error subgroup WPS305
+        main.py:289:38: Found `f` string
+        main.py:307:38: Found `f` string
+        main.py:321:34: Found `f` string
+        main.py:327:34: Found `f` string
+        main.py:341:42: Found `f` string
+    Error subgroup WPS204
+        main.py:290:9: Found overused expression: k[i]; used 14 > 7
+        main.py:335:7: Found overused expression: i + 2; used 9 > 7
+    Error subgroup WPS432
+        main.py:301:49: Found magic number: 62
+    Error subgroup WPS237
+        main.py:321:34: Found a too complex `f` string
+        main.py:327:34: Found a too complex `f` string
+        main.py:341:42: Found a too complex `f` string
+    Error subgroup WPS421
+        main.py:372:1: Found wrong function call: print
+        main.py:373:1: Found wrong function call: print
+        main.py:389:1: Found wrong function call: print
+        main.py:390:1: Found wrong function call: print
+        main.py:394:5: Found wrong function call: print
+Error group D
+    Error subgroup D100
+        main.py:1:1: Missing docstring in public module
+    Error subgroup D101
+        main.py:9:1: Missing docstring in public class
+        main.py:34:1: Missing docstring in public class
+        main.py:104:1: Missing docstring in public class
+    Error subgroup D107
+        main.py:10:1: Missing docstring in __init__
+        main.py:35:1: Missing docstring in __init__
+        main.py:105:1: Missing docstring in __init__
+    Error subgroup D105
+        main.py:15:1: Missing docstring in magic method
+        main.py:18:1: Missing docstring in magic method
+        main.py:42:1: Missing docstring in magic method
+        main.py:51:1: Missing docstring in magic method
+        main.py:54:1: Missing docstring in magic method
+        main.py:57:1: Missing docstring in magic method
+        main.py:121:1: Missing docstring in magic method
+        main.py:131:1: Missing docstring in magic method
+    Error subgroup D103
+        main.py:22:1: Missing docstring in public function
+        main.py:61:1: Missing docstring in public function
+        main.py:100:1: Missing docstring in public function
+        main.py:139:1: Missing docstring in public function
+        main.py:143:1: Missing docstring in public function
+        main.py:152:1: Missing docstring in public function
+        main.py:179:1: Missing docstring in public function
+        main.py:188:1: Missing docstring in public function
+        main.py:192:1: Missing docstring in public function
+        main.py:203:1: Missing docstring in public function
+        main.py:211:1: Missing docstring in public function
+        main.py:219:1: Missing docstring in public function
+        main.py:226:1: Missing docstring in public function
+        main.py:235:1: Missing docstring in public function
+        main.py:254:1: Missing docstring in public function
+Error group E
+    Error subgroup E800
+        main.py:8:2: Found commented out code
+        main.py:153:2: Found commented out code
+        main.py:193:2: Found commented out code
+        main.py:271:2: Found commented out code
+        main.py:272:2: Found commented out code
+        main.py:273:2: Found commented out code
+        main.py:274:2: Found commented out code
+        main.py:279:2: Found commented out code
+        main.py:280:2: Found commented out code
+        main.py:282:2: Found commented out code
+        main.py:308:2: Found commented out code
+        main.py:312:2: Found commented out code
+        main.py:320:2: Found commented out code
+        main.py:322:2: Found commented out code
+        main.py:324:2: Found commented out code
+        main.py:328:2: Found commented out code
+        main.py:330:2: Found commented out code
+        main.py:342:2: Found commented out code
+        main.py:347:2: Found commented out code
+        main.py:351:2: Found commented out code
+        main.py:352:2: Found commented out code
+        main.py:380:2: Found commented out code
+        main.py:384:2: Found commented out code
+        main.py:393:2: Found commented out code
+    Error subgroup E302
+        main.py:9:1: expected 2 blank lines, found 1
+        main.py:34:1: expected 2 blank lines, found 1
+    Error subgroup E741
+        main.py:43:9: ambiguous variable name 'l'
+    Error subgroup E265
+        main.py:153:5: block comment should start with '# '
+        main.py:193:5: block comment should start with '# '
+        main.py:271:1: block comment should start with '# '
+        main.py:272:1: block comment should start with '# '
+        main.py:273:1: block comment should start with '# '
+        main.py:276:1: block comment should start with '# '
+        main.py:282:1: block comment should start with '# '
+        main.py:324:1: block comment should start with '# '
+        main.py:330:1: block comment should start with '# '
+    Error subgroup E501
+        main.py:229:80: line too long (86 > 79 characters)
+        main.py:275:80: line too long (91 > 79 characters)
+        main.py:334:80: line too long (119 > 79 characters)
+        main.py:393:80: line too long (84 > 79 characters)
+Error group H
+    Error subgroup H601
+        main.py:9:1: class has low (44.44%) cohesion
+        main.py:34:1: class has low (35.00%) cohesion
+Error group Q
+    Error subgroup Q000
+        main.py:29:21: Remove bad quotes
+        main.py:30:20: Remove bad quotes
+Error group B
+    Error subgroup B006
+        main.py:105:31: Do not use mutable data structures for argument defaults.  They are created during function definition time. All calls to the function reuse this one instance of that data structure, persisting changes between them.
+Error group S
+    Error subgroup S101
+        main.py:204:1: Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+        main.py:212:1: Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+        main.py:236:1: Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+Error group N
+    Error subgroup N816
+        main.py:364:2: variable 'resL' in global scope should not be mixedCase
+        main.py:365:2: variable 'resR' in global scope should not be mixedCase
