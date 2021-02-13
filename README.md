@@ -1,9 +1,9 @@
 # Hyperskill_code_quality
 
 Устанавливаются дополнения к flake8:
-pip install wemake-python-styleguide
-pip install cohesion
-pip install radon
+pip install wemake-python-styleguide  
+pip install cohesion  
+pip install radon  
 
 
 flake8 их автоматически подхватывает:
