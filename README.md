@@ -5,8 +5,11 @@ pip install wemake-python-styleguide
 pip install cohesion
 pip install radon
 
+
 flake8 их автоматически подхватывает:
+
 flake8 --version
+
 3.8.4 (cohesion: 1.0.0, flake8-bandit: 2.1.2, flake8-broken-line: 0.3.0,
 flake8-bugbear: 20.11.1, flake8-comprehensions: 3.3.1, flake8-darglint: 1.6.0,
 flake8-debugger: 4.0.0, flake8-docstrings: 1.5.0, pydocstyle: 5.1.1,
