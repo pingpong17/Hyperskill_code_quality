@@ -1,6 +1,6 @@
 import re
 
-file_path = 'errors.txt'
+file_path = input()
 lines = open(file_path).readlines()
 
 errors = {}
